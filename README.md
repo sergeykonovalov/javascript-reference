@@ -108,6 +108,9 @@
 
 ### **String** Object
 
+.toUpperCase
+.toLowerCase
+
 ### Templates
 
 ### Internationalisation
@@ -170,7 +173,36 @@
 
 ## DOM
 
+### querySelector
+
+```JavaScript
+document.querySelector('#id-name').addEventListener('click', function(event) {
+  event.preventDefault();
+  let elementValue = event.target.elements.elementName.value; // assuming <name='elementName'>
+});
+```
+
+- `event.target` object holds reference to DOM element
+- checkboxes are exceptions, use `checked` instead of `value`
+
+### id, class, title, name, alttext, type, placeholder
+
+### Forms
+
+- `name` attribute is a ket for value which will be submitted, hence recommend camelCase format
+- define `id` for each form
+- default action for submit is full page refresh
+
+### Elements
+
+.createElement
+.appendChild
+
 ### Event Handling
+
+.change
+.click
+.input
 
 ### Storage
 
