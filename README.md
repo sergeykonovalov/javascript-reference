@@ -1,5 +1,10 @@
 # Handy Notes on JavaScript
 
+## Code of Conduct
+
+- check what is returned and handle nulls, undefined, empty things and errors
+- error handling on controller level, not to clutter logic on service and repository (also means low coupling)
+
 ## General
 
 ## Grammar and Types
