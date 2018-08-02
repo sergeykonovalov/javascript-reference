@@ -7,6 +7,11 @@
 
 ## General
 
+## Debugging
+
+- add statement `debugger` in the place, where you want browser to stop and show state
+- only works when developer tools open
+
 ## Grammar and Types
 
 ### Dynamic Typing
@@ -131,6 +136,8 @@
 .sort
 .filter
 .some
+.findIndex
+.splice
 
 #### Looping Arrays
 
@@ -200,8 +207,14 @@ document.querySelector('#id-name').addEventListener('click', function(event) {
 
 ### Elements
 
-.createElement
-.appendChild
+```JavaScript
+let newDiv = document.createElement('div');
+let subDiv = document.createElement('span');
+subDiv.textContent = 'some text';
+subDiv.setAttribute('id', '12345');
+newDiv.appendChild(subDiv);
+
+```
 
 ### Event Handling
 
