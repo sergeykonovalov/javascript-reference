@@ -211,6 +211,25 @@ document.querySelector('#id-name').addEventListener('click', function(event) {
 
 ### Storage
 
+#### localStorage
+
+- `localStorage` is a global variable
+- only supports strings (use JSON.parse() and JSON.stringify())
+- if no data found, null is returned => check for nulls
+
+```JavaScript
+localStorage.setItem('key', value);
+localStorage.getItem('key');
+localStorage.removeItem('key');
+localStorage.clear(); // for all
+```
+
+#### Cookies
+
+#### Session Storage
+
+#### Indexed DB
+
 ## Document Object
 
 ## Window Object
