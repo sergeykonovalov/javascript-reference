@@ -1,0 +1,22 @@
+{
+  "name": "javascript-reference",
+  "version": "1.0.0",
+  "description": "## Code of Conduct",
+  "main": "dates.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeykonovalov/javascript-reference.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergeykonovalov/javascript-reference/issues"
+  },
+  "homepage": "https://github.com/sergeykonovalov/javascript-reference#readme",
+  "dependencies": {
+    "moment": "^2.22.2"
+  }
+}
