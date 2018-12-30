@@ -7,6 +7,12 @@
 
 ## General
 
+### Strict Mode
+
+- any variable has to be declard before use
+- `use strict`
+
+
 ## Debugging
 
 - add statement `debugger` in the place, where you want browser to stop and show state
@@ -15,6 +21,13 @@
 ## Grammar and Types
 
 ### Dynamic Typing
+
+#### Type Coercion
+
+Automatically change type, e.g. truthy/falsy.
+Coercion can be into: number, string or boolean.
+Coercion is reason why recommended to use triple equal sign.
+Use `typeof` to explicitly get correct type of variable.
 
 ### Expressions and Operators
 
@@ -87,6 +100,8 @@
 ### Arguments and Parameters
 
 ### Arrow Functions
+
+Array `arguments` includes all arguments passed into function.
 
 ### Methods
 
@@ -166,6 +181,10 @@
 ### Getters and Setters
 
 ### Prototype-based OOP
+
+(!) Prototype is a property of constructor function.
+(!) Changes made in code to prototype will be reflected on every existing instance.
+If you define a function as object property, while this property has same name as prototype, JS will first look into the function.
 
 ### Object Hierarchies
 
@@ -260,6 +279,11 @@ localStorage.clear(); // for all
 ## Standard Objects
 
 ### **Boolean** Object
+
+Any JS object is truthy (resolved to true in boolean context) or falsy.
+
+Falsy: false, 0, empty string, null, undefined.
+
 
 ### **Symbol Object**
 
