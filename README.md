@@ -51,23 +51,7 @@ Use `typeof` to explicitly get correct type of variable.
 
 ### switch
 
-### try/catch/throw
 
-### **Error** Objects
-
-#### EvalError
-
-#### InternalError
-
-#### RangeError
-
-#### ReferenceError
-
-#### SyntaxError
-
-#### TypeError
-
-#### URIError
 
 ## Promises
 
@@ -121,11 +105,7 @@ Array `arguments` includes all arguments passed into function.
 
 ## Number and Dates
 
-### **Number** Object
 
-### Math Object
-
-### Date Object
 
 ### Timeouts and Intervals
 
@@ -292,3 +272,8 @@ Falsy: false, 0, empty string, null, undefined.
 ### async/await
 
 ## Patterns
+
+## Popular Packages
+
+### Moment
+
